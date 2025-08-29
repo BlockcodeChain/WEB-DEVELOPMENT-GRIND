@@ -22,8 +22,8 @@ const Hero = () => {
           className="absolute inset-0 opacity-30"
           style={{
             backgroundImage:
-              "linear-gradient(to right, rgba(0,0,0,0.07) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px)",
-            backgroundSize: "40px 40px",
+              "linear-gradient(to right, rgba(0,0,0,0.09) 1px, transparent 1px), linear-gradient(to bottom, rgba(0,0,0,0.05) 1px, transparent 1px)",
+            backgroundSize: "45px 45px",
           }}
         ></div>
 
@@ -31,8 +31,8 @@ const Hero = () => {
           className="absolute inset-0 opacity-20"
           style={{
             backgroundImage:
-              "radial-gradient(rgba(0,0,0,0.08) 1px, transparent 1px)",
-            backgroundSize: "20px 20px",
+              "radial-gradient(rgba(0,0,0,0.4) 1px, transparent 1px)",
+            backgroundSize: "22px 22px",
           }}
         ></div>
       </div>

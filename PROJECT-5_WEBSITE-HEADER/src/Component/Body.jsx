@@ -15,7 +15,7 @@ const Body = ({ dark }) => {
               ${!dark
                 ? "bg-amber-500 text-amber-800 shadow-md shadow-orange-500"
                 : "bg-blue-300 text-blue-700 shadow-md shadow-blue-200"}
-              animate-pulse transition-all duration-1000`}
+              animate-pulse transition-all duration-300`}
             >
               NEW
             </span>

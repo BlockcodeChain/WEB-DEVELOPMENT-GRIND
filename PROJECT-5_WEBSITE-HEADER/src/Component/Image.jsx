@@ -62,10 +62,13 @@ const Image = ({ dark }) => {
               }`}
             />
           </div>
-          <Footer dark={dark}/>
+          
         </div>
+       
       </div>
+      
     </div>
+   
   );
 };
 

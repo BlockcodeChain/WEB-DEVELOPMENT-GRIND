@@ -1,6 +1,7 @@
 import { FaCode } from "react-icons/fa6";
 import { HiDocument } from "react-icons/hi2";
 import Image from "./Image";
+import Footer from "./Footer";
 
 const Main = ({ dark }) => {
   return (
@@ -76,8 +77,12 @@ const Main = ({ dark }) => {
              <div className="h-[2px] min-w-11/12 opacity-40 bg-gray-500"></div>
          
           <Image dark={dark}/>
+           
         </div>
+        
       </div>
+               <Footer/>
+       
     </div>
   );
 };
